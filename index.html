@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookBreeze</title>
+    <style>
+        * {
+            color: rgb(255, 255, 255);
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .navbar {
+            /* border: 2px solid gray; */
+            width: 100vw;
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            background-color: coral;
+        }
+
+        .menu {
+            /* border: 2px solid black; */
+            display: flex;
+            list-style: none;
+            margin: auto;
+
+        }
+
+        a {
+            /* border: 2px solid grey; */
+            height: 100vh;
+            text-decoration: none;
+            padding: 5vw;
+            font-size: larger;
+        }
+
+        a:hover {
+            background-color: rgb(255, 148, 109);
+        }
+
+        .footer {
+            height: 20vh;
+            width: 100vw;
+            background-color: coral;
+        }
+
+        .info {
+            background-color: rgb(255, 219, 207);
+            padding: 2%;
+            display: flex;
+            flex-wrap: wrap;
+            /* justify-content: space-evenly; */
+            margin: auto;
+            z-index: -1;
+        }
+
+        .card {
+            margin: 2%;
+            padding: 1%;
+            height: 60vh;
+            width: 20vw;
+            background-color: coral;
+            color: white;
+            text-overflow: ellipsis;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            filter: blur(5px);
+            -webkit-filter: blur(5px);
+            z-index: 0;
+        }
+
+
+        .color {
+            margin-top: 20%;
+            position: absolute;
+            left: 0;
+            width: 100vw;
+            background-color: rgb(255, 229, 221);
+            opacity: 0.5;
+            /* Adjust the opacity value as needed (0 to 1) */
+            z-index: 2;
+            display: flex;
+            align-items: center;
+        }
+
+        .motivation {
+            z-index: 3;
+            left: 0;
+            right: 0;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+
+
+        .motivation h1 {
+            z-index: 4;
+            color: rgb(131, 47, 18);
+            font-size: 24px;
+            margin: 10px;
+        }
+
+
+
+        .card:hover {
+            background-color: rgb(255, 148, 109);
+            height: 60vh;
+            width: 20vw;
+        }
+
+        .content {
+            /* Your styles for the content section */
+            padding: 2%;
+            text-align: center;
+        }
+
+        .content h6 {
+            font-size: 18px;
+            margin: 20px;
+            color: rgb(131, 47, 18);
+            font-size: larger;
+            margin: auto 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul class="menu">
+            <li><a style="font-size: x-large;" href="./index.html">BσσƙBᵣₑₑzₑ</a></li>
+            <li><a href="./poetry.html">Poetry</a></li>
+            <li><a href="./spiritual.html">Spiritual</a></li>
+            <li><a href="./business.html">Business and Economics</a></li>
+            <li><a href="./science.html">Science and technology</a></li>
+        </ul>
+    </div>
+    <div class="info">
+        <img src="https://images.pexels.com/photos/2898170/pexels-photo-2898170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="">
+        <div class="color">
+            <div class="motivation">
+
+                <div class="content">
+                    <h6>
+                        Immerse yourself in a harmonious blend of genres, from heartwarming romance to spine-tingling
+                        thrillers,
+                        thought-provoking non-fiction to captivating fantasy. Our extensive collection is curated to
+                        cater to every
+                        taste, ensuring that you'll find a book that resonates with your soul.
+                    </h6>
+                </div>
+                <h1>
+                    "If you want to shine like a sun, first burn like a sun." <br> - Dr. APJ Abdul Kalam
+                </h1>
+            </div>
+        </div>
+
+
+    </div>
+    <footer class="footer">
+        <div class="contact" style="padding: 2vh;">
+            <h2>Contact</h2>
+            <p>
+                Email: nandeesh.bajpayee_cs21@gla.ac.in<br>
+                Phone: +91 7267051377<br>
+                Address: 123 Reading Lane, Booktown, India</p>
+        </div>
+    </footer>
+</body>
+
+</html>
